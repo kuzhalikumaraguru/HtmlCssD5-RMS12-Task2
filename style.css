@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
+body{
+    font-family: 'Preahvihear', sans-serif;
+}
+.header{
+    background: rgb(86,86,86);
+    background: linear-gradient(180deg, rgba(86,86,86,1) 65%, rgba(238,238,238,1) 80%, rgba(86,86,86,1) 100%);
+    height: calc(100vh - 475px);
+}
+.profile{
+    position: relative;
+    width: calc(100vw - 1032px);
+    top: 18%;
+    left: 36%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    height: 130px;
+    border-radius: 50%;
+    border: 5px dotted orange;
+}
+.name{
+    background-color: #fabe28;
+    font-size: 27px;
+    border-radius: 6px;
+    width: 75%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+}
+.border-icon{
+    border: 3px dashed #fabe28;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.icon{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-color: #3e453e;
+    text-align: center;
+    padding: 8px;
+}
+.article{
+    display: flex;
+    align-items: center;
+}
+.skills{
+    list-style: none;
+}
+ul li div {
+    display: flex;
+    justify-content: space-between;
+}
